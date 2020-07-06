@@ -1,0 +1,58 @@
+#appointment-edit {
+  width: 50%;
+  padding-left: 10px;
+}
+
+#appointment-edit button {
+  width: 100px;
+  background-color: #9ebaa0;
+  padding: 7px 0;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#appointment-edit button:active {
+  background-color: darkgreen;
+}
+
+#appointment-edit input[type="text"] {
+  width: 100%;
+}
+
+#appointment-edit .alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+#appointment-edit .mb {
+  margin-bottom: 15px;
+}
+
+#appointment-edit .medium {
+  width: 80%;
+}
+
+#appointment-edit .alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+#appointment-edit .alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+#appointment-edit label {
+  margin-top: 10px;
+  display: block;
+}
+
+#appointment-edit h1 {
+  font-weight: 400;
+}
