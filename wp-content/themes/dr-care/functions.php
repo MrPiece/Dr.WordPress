@@ -381,12 +381,7 @@ add_action('init', 'register_user_roles');
 function register_user_roles()
 {
 	add_role('doctor', 'Doctor');
-
 	$doctor = get_role('doctor');
-	$doctor->add_cap('read');
-	$doctor->add_cap('read_post');
-	$doctor->add_cap('edit_posts');
-	$doctor->add_cap('edit_post');
 }
 
 add_filter( 'map_meta_cap', 'my_map_meta_cap', 10, 4 );
